@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spotify - Web Player: Music for everyone</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="utility.css" />
+  <link rel="shortcut icon" href="spotify.favicon.png" type="image/x-icon">
+</head>
+<body>
+  <div class="container flex bg-black">
+    <div class="left">
+      <div id="cross" class="cross">
+        <img width="30" class="invert" src="cross.svg" alt="cross">
+    </div>    
+      <div class="home bg-grey rounded m-5 p-1">
+        <div class="logo">
+          <img class="invert" src="logo.svg" alt="spotify-logo" />
+        </div>
+        <ul>
+          <li><img class="invert" src="home.svg" alt="home" />Home</li>
+          <li><img class="invert" src="search.svg" alt="home" />Search</li>
+        </ul>
+      </div>
+
+      <div class="library rounded bg-grey m-5 p-1">
+        <div class="heading">
+          <img class="invert" src="playlist.svg" alt="" />
+          <p>Your-Library</p>
+        </div>
+        <div class="songList">
+          <ul>
+            <li>
+              <img class="invert" src="music.svg" alt="music">
+              <div class="info">
+                <div>Song Name</div>
+                <div>Song Artist</div>
+              </div>
+              <div class="playnow">
+                <img class="invert" src="circleplay.svg" alt="play">
+                <span>Play Now</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="footer">
+          <div>
+            <a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a>
+          </div>
+          <div>
+            <a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a>
+          </div>
+          <div>
+            <a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+          </div>
+          <div>
+            <a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a>
+          </div>
+          <div>
+            <a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a>
+          </div>
+          <div>
+            <a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a>
+          </div>
+
+         
+         
+
+        </div>
+      </div>
+    </div>
+
+    <div class="right bg-grey rounded">
+      
+      <div class="header">
+        <div class="nav">
+          <div class="hamburgerContainer">
+            <img width="40" class="invert" id="hamburger" src="hamburger.svg" alt="hamburger">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 6C15 6 9 10.4189 9 12C9 13.5812 15 18 15 18" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9 6C9 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </div>
+        <div class="buttons">
+          <button class="signup-btn">Sign up</button>
+          <button class="login-btn">Log in</button>
+        </div>
+      </div>
+      <div class="spotifyPlaylists">
+        <h1>Spotify Playlists</h1>
+        <div class="cardContainer">
+            <div class="card">
+              <div class="play">
+                <img src="play.png" height="25" width="25" alt="Play Button SVG">        
+              </div>
+                <img src="https://i.scdn.co/image/ab67616d00001e0260dbbb589dff0c57a3a4ffb2" height="200" width="200" alt="">
+              <h2>Song</h2>
+              <p>Chaleya from Jawan</p>
+            </div>
+            <div class="card">
+              <div class="play">
+                <img src="play.png" height="25" width="25" alt="Play Button SVG">        
+              </div>
+                <img src="https://i.scdn.co/image/ab67706c0000da84edbfff7bdf262ba6b3a01056" height="200" width="200" alt="Best Hindi Romantic Songs 2023 ❤️">
+                <h2>Song</h2>
+                <p>Apna Bana le</p>
+            </div>
+               
+            <div class="card">
+              <div class="play">
+                <img src="play.png" height="25" width="25" alt="Play Button SVG">        
+              </div>
+              <img
+              aria-hidden="false"
+              draggable="false"
+              loading="lazy"
+              src="https://i.scdn.co/image/ab67616d00001e02021d7017f73387b008eab271"
+              alt="Satranga (From &quot;ANIMAL&quot;)"
+              class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+              srcset="https://i.scdn.co/image/ab67616d00001e02021d7017f73387b008eab271 150w, https://i.scdn.co/image/ab67616d00001e02021d7017f73387b008eab271 300w, https://i.scdn.co/image/ab67616d0000b273021d7017f73387b008eab271 320w, https://i.scdn.co/image/ab67616d0000b273021d7017f73387b008eab271 640w"
+              sizes="(min-width: 1280px) 232px, 192px"
+            />
+                <h2>Song</h2>
+                <p>Satranga (From Animal)</p>
+            </div>
+
+            <div class="card">
+              <div class="play">
+                <img src="play.png" height="25" width="25" alt="Play Button SVG">        
+              </div>
+              <img
+  aria-hidden="false"
+  draggable="false"
+  loading="lazy"
+  src="https://i.scdn.co/image/ab67616d00001e024a60872ae145776164540a7f"
+  alt="Heeriye (feat. Arijit Singh)"
+  class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+  srcset="https://i.scdn.co/image/ab67616d00001e024a60872ae145776164540a7f 150w, https://i.scdn.co/image/ab67616d00001e024a60872ae145776164540a7f 300w, https://i.scdn.co/image/ab67616d0000b2734a60872ae145776164540a7f 320w, https://i.scdn.co/image/ab67616d0000b2734a60872ae145776164540a7f 640w"
+  sizes="(min-width: 1280px) 232px, 192px"
+/>
+
+                <h2>Song</h2>
+                <p>Heeriye(Feat Arijit Singh)</p>
+            </div>
+
+            <div class="card">
+              <div class="play">
+                <img src="play.png" height="25" width="25" alt="Play Button SVG">        
+              </div>
+              <img
+  aria-hidden="false"
+  draggable="false"
+  loading="lazy"
+  src="https://i.scdn.co/image/ab67616d00001e02086a0de4ba75217274d94fb4"
+  alt="Phir Aur Kya Chahiye (From &quot;Zara Hatke Zara Bachke&quot;)"
+  class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+  srcset="https://i.scdn.co/image/ab67616d00001e02086a0de4ba75217274d94fb4 150w, https://i.scdn.co/image/ab67616d00001e02086a0de4ba75217274d94fb4 300w, https://i.scdn.co/image/ab67616d0000b273086a0de4ba75217274d94fb4 320w, https://i.scdn.co/image/ab67616d0000b273086a0de4ba75217274d94fb4 640w"
+  sizes="(min-width: 1280px) 232px, 192px"
+/>
+
+
+                <h2>Song</h2>
+                
+                <p>Phir Aur Kya Chahiye (From Zara Hatke Zara Bachke)</p>
+            </div>
+
+            <div class="card">
+              <div class="play">
+                
+                <img src="play.png" height="25" width="25" alt="Play Button SVG">        
+              </div>
+              <img
+              aria-hidden="false"
+              draggable="false"
+              loading="lazy"
+              src="https://i.scdn.co/image/ab67616d00001e02913edcaccb2268647d0c495b"
+              alt="Kesariya"
+              class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+              srcset="https://i.scdn.co/image/ab67616d00001e02913edcaccb2268647d0c495b 150w, https://i.scdn.co/image/ab67616d00001e02913edcaccb2268647d0c495b 300w, https://i.scdn.co/image/ab67616d0000b273913edcaccb2268647d0c495b 320w, https://i.scdn.co/image/ab67616d0000b273913edcaccb2268647d0c495b 640w"
+              sizes="(min-width: 1280px) 232px, 192px"
+            />
+            
+                <h2>Song</h2>
+                <p>Kesariya</p>
+            </div>
+
+            
+
+            <div class="card">
+              <div class="play">
+                <img src="play.png" height="25" width="25" alt="Play Button SVG">        
+              </div>
+              <img
+  aria-hidden="false"
+  draggable="false"
+  loading="lazy"
+  src="https://i.scdn.co/image/ab67616d00001e02a0174ac9f29d0d48d76c3e00"
+  alt="Pehli Nazar Mein"
+  class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+  srcset="https://i.scdn.co/image/ab67616d00001e02a0174ac9f29d0d48d76c3e00 150w, https://i.scdn.co/image/ab67616d00001e02a0174ac9f29d0d48d76c3e00 300w, https://i.scdn.co/image/ab67616d0000b273a0174ac9f29d0d48d76c3e00 320w, https://i.scdn.co/image/ab67616d0000b273a0174ac9f29d0d48d76c3e00 640w"
+  sizes="(min-width: 1280px) 232px, 192px"
+/>
+
+                <h2>Song</h2>
+                <p>Pehli Nazar Mein</p>
+            </div>
+
+            <div class="card">
+              <div class="play">
+                <img src="play.png" height="25" width="25" alt="Play Button SVG">        
+              </div>
+              <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e02cbe34e4a9c7efa3470f50902" alt="Woh Lamhe Woh Baatein" class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj" srcset="https://i.scdn.co/image/ab67616d00001e02cbe34e4a9c7efa3470f50902 150w, https://i.scdn.co/image/ab67616d00001e02cbe34e4a9c7efa3470f50902 300w, https://i.scdn.co/image/ab67616d0000b273cbe34e4a9c7efa3470f50902 320w, https://i.scdn.co/image/ab67616d0000b273cbe34e4a9c7efa3470f50902 640w" sizes="(min-width: 1280px) 232px, 192px">
+            
+              <h2>Song</h2>
+              <p>Woh Lamhe Woh Baatein</p>
+            </div>
+
+
+            </div>
+
+
+</div>
+    
+            
+            <div class="playBar">
+              <audio id="audioPlayer"></audio>
+              <div class="seekBar">
+                <div class="circle"></div>
+              </div>
+              <div class="aboveBar">
+                <div class="songinfo">
+                
+                </div>
+                  <div class="songbuttons">
+                   <box-icon name='skip-previous' ></box-icon>
+                   <box-icon name='play-circle'></box-icon>
+                   <box-icon name='pause'></box-icon>
+                   <box-icon name='skip-next'></box-icon>
+                  </div>
+                  <div class="timenvol">
+                    <div class="songtime"></div>
+                    <div class="volume">
+                        <box-icon name='volume' id="volumeIcon"></box-icon>
+                        <div class="volumeSeekContainer">
+                            <input type="range" id="volumeSeek" min="0" max="100" step="1" value="100" class="volumeSeek">
+                        </div>
+                    </div>
+                </div>
+                
+                
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+</html>
